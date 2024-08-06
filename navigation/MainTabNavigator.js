@@ -41,7 +41,7 @@ export default TabNavigator(
         guideList: { screen: GuideScreen },
         subjectList: { screen: SubjectListScreen }
       },
-      { headerMode: 'none' })
+      { headerMode: 'block' })
     },
     Settings: {
       screen: SettingsScreen,
