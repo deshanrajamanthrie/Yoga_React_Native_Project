@@ -21,16 +21,18 @@ export default TabNavigator(
       },
       { headerMode: 'none' })
     },
+		/*style sheet part*/
     MeditationList: {
       screen: StackNavigator({
         meditationList: { screen: MeditationListScreen },
-        meditation: { 
+        meditation: {
           screen: MeditationPlayerScreen,
           navigationOptions: ({ navigation }) => ({
              title: 'iSleep',
-             tabBarVisible: false, 
+             tabBarVisible: false,
           })
-        } 
+        }
+
       },
       { headerMode: 'none' })
     },
